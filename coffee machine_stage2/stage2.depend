@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537597578 source:c:\users\bernard\desktop\cs 202 - assignments\assign 2\coffee machine_stage2\stage2\main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+

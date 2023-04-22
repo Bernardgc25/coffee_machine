@@ -1,0 +1,824 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 14705>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (  1  ) Tj  ET Q
+q 0.502 0.502 0.000 rg BT 1 0 0 -1 58.35 37.02 Tm 0 Tr (// Bernard J. Gole Cruz, CS 202-2002, Assignment 2 stage2) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.36 Tm 0 Tr (  2  ) Tj  ET Q
+q 0.502 0.502 0.000 rg BT 1 0 0 -1 58.35 48.36 Tm 0 Tr (// This program is a continuation of CoffeeMachine class  with additional) Tj  ET Q
+q 0.502 0.502 0.000 rg BT 1 0 0 -1 28.35 59.70 Tm 0 Tr (MilkCoffeemachine class) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.04 Tm 0 Tr (  3  ) Tj  ET Q
+q 0.502 0.502 0.000 rg BT 1 0 0 -1 58.35 71.04 Tm 0 Tr (// an implementation of class inheritance) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (  4  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (  5  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 58.35 93.71 Tm 0 Tr (#include<iostream>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (  6  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 58.35 105.05 Tm 0 Tr (#include<string>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (  7  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 58.35 116.39 Tm 0 Tr (#include<iomanip>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.73 Tm 0 Tr (  8  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 127.73 Tm 0 Tr (using namespace ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 154.35 127.73 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 127.73 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.07 Tm 0 Tr (  9  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.41 Tm 0 Tr ( 10  ) Tj  ET Q
+q 0.502 0.502 0.000 rg BT 1 0 0 -1 58.35 150.41 Tm 0 Tr (//global constant) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr ( 11  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 161.74 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+118.35 153.07 102.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 161.74 Tm 0 Tr (DEFAULT_CAPACITY ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 161.74 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 232.35 161.74 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 161.74 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr ( 12  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr ( 13  ) Tj  ET Q
+q 0.502 0.502 0.000 rg BT 1 0 0 -1 58.35 184.42 Tm 0 Tr (//class declaration) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr ( 14  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 195.76 Tm 0 Tr (class ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+94.35 187.09 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 195.76 Tm 0 Tr (CoffeeMachine) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 195.76 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.10 Tm 0 Tr ( 15  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 207.10 Tm 0 Tr (public) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 207.10 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.44 Tm 0 Tr ( 16  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 218.44 Tm 0 Tr (    ) Tj  ET Q
+q 0.502 0.502 0.000 rg BT 1 0 0 -1 82.35 218.44 Tm 0 Tr (//default constructor) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.78 Tm 0 Tr ( 17  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 229.78 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 221.11 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 229.78 Tm 0 Tr (CoffeeMachine) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 229.78 Tm 0 Tr (\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr ( 18  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 241.11 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 241.11 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 241.11 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 232.44 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 241.11 Tm 0 Tr (curr_water ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 241.11 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 220.35 241.11 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 241.11 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr ( 19  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 252.45 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 252.45 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 252.45 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 243.78 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 252.45 Tm 0 Tr (curr_coffee ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 252.45 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 252.45 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 252.45 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr ( 20  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 263.79 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 263.79 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 263.79 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 255.12 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 263.79 Tm 0 Tr (water_capacity ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 263.79 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+244.35 255.12 96.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 263.79 Tm 0 Tr (DEFAULT_CAPACITY) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 263.79 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr ( 21  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 275.13 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 275.13 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 275.13 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 266.46 96.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 275.13 Tm 0 Tr (coffee_capacity ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 275.13 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+250.35 266.46 96.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 275.13 Tm 0 Tr (DEFAULT_CAPACITY) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 275.13 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.47 Tm 0 Tr ( 22  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 286.47 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 286.47 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 286.47 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 277.80 132.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 286.47 Tm 0 Tr (coffee_spoons_per_cup ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 286.47 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 286.35 286.47 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 286.47 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.81 Tm 0 Tr ( 23  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 297.81 Tm 0 Tr (        this-> name = "UNTITLED";) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.15 Tm 0 Tr ( 24  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 309.15 Tm 0 Tr (        cout << "created coffee machine" << right << setw\(9\) << name << right <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (setw\(22\) << "with empty resources." << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr ( 25  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 331.82 Tm 0 Tr (    }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr ( 26  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 343.16 Tm 0 Tr (    //second constructor with coffee machine name) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr ( 27  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 354.50 Tm 0 Tr (    CoffeeMachine\(string name\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.84 Tm 0 Tr ( 28  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 365.84 Tm 0 Tr (        this->curr_water = 0;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.18 Tm 0 Tr ( 29  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 377.18 Tm 0 Tr (        this->curr_coffee = 0;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.52 Tm 0 Tr ( 30  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 388.52 Tm 0 Tr (        this->water_capacity = DEFAULT_CAPACITY;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr ( 31  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 399.85 Tm 0 Tr (        this->coffee_capacity = DEFAULT_CAPACITY;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr ( 32  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 411.19 Tm 0 Tr (        this->coffee_spoons_per_cup = 1;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr ( 33  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 422.53 Tm 0 Tr (        this-> name = "DECAF";) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr ( 34  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 433.87 Tm 0 Tr (        cout << "created coffee machine" << right << setw\(6\) << name << right <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.21 Tm 0 Tr (setw\(22\) << "with empty resources." << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.55 Tm 0 Tr ( 35  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 456.55 Tm 0 Tr (    }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.89 Tm 0 Tr ( 36  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 467.89 Tm 0 Tr (    //third constructor with coffee machine, water capacity, coffee capacity) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (parameter) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr ( 37  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 490.56 Tm 0 Tr (    CoffeeMachine\(string name, int x, int y\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr ( 38  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 501.90 Tm 0 Tr (        this->curr_water = 0;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr ( 39  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 513.24 Tm 0 Tr (        this->curr_coffee = 0;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.58 Tm 0 Tr ( 40  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 524.58 Tm 0 Tr (        this->coffee_spoons_per_cup = 1;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.92 Tm 0 Tr ( 41  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 535.92 Tm 0 Tr (        this-> name = "BLEND";) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.26 Tm 0 Tr ( 42  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 547.26 Tm 0 Tr (        cout << "Starting up Coffee Machine" << right << setw\(6\) << name << right <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (setw\(37\) << "with empty resources and capacities:" << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr ( 43  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 569.93 Tm 0 Tr (        this->water_capacity = x;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr ( 44  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 581.27 Tm 0 Tr (        this->coffee_capacity = y;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr ( 45  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 592.61 Tm 0 Tr (        cout << right << setw\(22\) << "water_capacity=" << water_capacity << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.95 Tm 0 Tr ( 46  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 603.95 Tm 0 Tr (        cout << right << setw\(23\) << "coffee_capacity=" << coffee_capacity << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.29 Tm 0 Tr ( 47  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 615.29 Tm 0 Tr (        cout << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.63 Tm 0 Tr ( 48  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 626.63 Tm 0 Tr (    }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr ( 49  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 637.96 Tm 0 Tr (    //destructor) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr ( 50  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 649.30 Tm 0 Tr (    ~CoffeeMachine\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr ( 51  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 660.64 Tm 0 Tr (        cout << "shutting down Coffee Machine " << name << " with the following) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (resources left:" << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.32 Tm 0 Tr ( 52  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 683.32 Tm 0 Tr (        cout << right << setw\(7\) << "water:" << curr_water << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.66 Tm 0 Tr ( 53  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 694.66 Tm 0 Tr (        cout << right << setw\(8\) << "coffee:" << curr_coffee << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 706.00 Tm 0 Tr ( 54  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 706.00 Tm 0 Tr (        cout << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr ( 55  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 717.33 Tm 0 Tr (    }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr ( 56  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr ( 57  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 740.01 Tm 0 Tr (    string name;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr ( 58  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 751.35 Tm 0 Tr (    int makeCups\(int\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr ( 59  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 762.69 Tm 0 Tr (    void addWater\(int\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.03 Tm 0 Tr ( 60  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 774.03 Tm 0 Tr (    void addCoffee\(int\);) Tj  ET Q
+Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 10174>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr ( 61  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 37.02 Tm 0 Tr (    void setCoffeeSpoonsPerCup\(int\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.36 Tm 0 Tr ( 62  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 48.36 Tm 0 Tr (    void displayCM\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.70 Tm 0 Tr ( 63  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.04 Tm 0 Tr ( 64  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 71.04 Tm 0 Tr (protected:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr ( 65  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 82.37 Tm 0 Tr (    int coffee_spoons_per_cup;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr ( 66  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr ( 67  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 105.05 Tm 0 Tr (private:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr ( 68  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 116.39 Tm 0 Tr (    int water_capacity;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.73 Tm 0 Tr ( 69  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 127.73 Tm 0 Tr (    int coffee_capacity;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.07 Tm 0 Tr ( 70  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 139.07 Tm 0 Tr (    int curr_water;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.41 Tm 0 Tr ( 71  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 150.41 Tm 0 Tr (    int curr_coffee;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr ( 72  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 161.74 Tm 0 Tr (    void makeSingleCup\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr ( 73  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr ( 74  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 184.42 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr ( 75  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.10 Tm 0 Tr ( 76  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 207.10 Tm 0 Tr (//Functions) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.44 Tm 0 Tr ( 77  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 218.44 Tm 0 Tr (//mutator function, set water) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.78 Tm 0 Tr ( 78  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 229.78 Tm 0 Tr (void CoffeeMachine::addWater\(int w\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr ( 79  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 241.11 Tm 0 Tr (        int water_overflow;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr ( 80  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 252.45 Tm 0 Tr (        curr_water = w;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr ( 81  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr ( 82  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 275.13 Tm 0 Tr (        //nothing happen) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.47 Tm 0 Tr ( 83  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 286.47 Tm 0 Tr (        if \(curr_water <= 0\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.81 Tm 0 Tr ( 84  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 297.81 Tm 0 Tr (            return;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.15 Tm 0 Tr ( 85  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 309.15 Tm 0 Tr (            }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr ( 86  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr ( 87  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 331.82 Tm 0 Tr (        //fills water to full if request amount is more than default capacity) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr ( 88  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 343.16 Tm 0 Tr (        if \(curr_water > water_capacity\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr ( 89  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 354.50 Tm 0 Tr (            water_overflow = curr_water - water_capacity;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.84 Tm 0 Tr ( 90  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 365.84 Tm 0 Tr (            curr_water = curr_water - water_overflow;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.18 Tm 0 Tr ( 91  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 377.18 Tm 0 Tr (            }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.52 Tm 0 Tr ( 92  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 388.52 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr ( 93  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr ( 94  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 411.19 Tm 0 Tr (//mutator function, set coffee) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr ( 95  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 422.53 Tm 0 Tr (void CoffeeMachine::addCoffee\(int c\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr ( 96  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 433.87 Tm 0 Tr (        int coffee_overflow;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.21 Tm 0 Tr ( 97  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 445.21 Tm 0 Tr (        curr_coffee = c;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.55 Tm 0 Tr ( 98  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.89 Tm 0 Tr ( 99  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 467.89 Tm 0 Tr (        //nothing happen) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (100  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 479.22 Tm 0 Tr (        if \(curr_coffee <= 0\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (101  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 490.56 Tm 0 Tr (            return;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (102  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 501.90 Tm 0 Tr (            }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (103  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.58 Tm 0 Tr (104  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 524.58 Tm 0 Tr (        //fills coffee to full if request amount is more than the default capacity) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.92 Tm 0 Tr (105  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 535.92 Tm 0 Tr (        if \(curr_coffee > coffee_capacity\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.26 Tm 0 Tr (106  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 547.26 Tm 0 Tr (            coffee_overflow = curr_coffee - coffee_capacity;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (107  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 558.59 Tm 0 Tr (            curr_coffee = curr_coffee - coffee_overflow;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (108  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 569.93 Tm 0 Tr (            }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (109  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 581.27 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (110  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.95 Tm 0 Tr (111  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.29 Tm 0 Tr (112  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 615.29 Tm 0 Tr (//check if resources are enough before making a cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.63 Tm 0 Tr (113  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 626.63 Tm 0 Tr (int CoffeeMachine::makeCups\(int cups\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (114  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (115  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 649.30 Tm 0 Tr (        //will not make coffee if resources are not enough) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (116  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 660.64 Tm 0 Tr (        if \(cups > curr_water || cups > curr_coffee \){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (117  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 671.98 Tm 0 Tr (            cout << right << setw\(3\) << "ordered " << cups << " cups of coffee of) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.32 Tm 0 Tr (strength 1" << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.66 Tm 0 Tr (118  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 694.66 Tm 0 Tr (            cout <<"NOT ENOUGH RESOURCES!" ;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 706.00 Tm 0 Tr (119  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 706.00 Tm 0 Tr (            cout << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (120  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 717.33 Tm 0 Tr (            cout << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (121  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 728.67 Tm 0 Tr (            }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (122  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (123  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 751.35 Tm 0 Tr (        //will make coffee if resources are enough base on number of order) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (124  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 762.69 Tm 0 Tr (        else{) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.03 Tm 0 Tr (125  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 774.03 Tm 0 Tr (            cout <<"ordered " << cups << " cups of coffee of strength 1" << endl;) Tj  ET Q
+Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 10248>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (126  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 37.02 Tm 0 Tr (                int i = 0;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.36 Tm 0 Tr (127  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 48.36 Tm 0 Tr (                while \(i < cups \){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.70 Tm 0 Tr (128  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 59.70 Tm 0 Tr (                    makeSingleCup\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.04 Tm 0 Tr (129  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 71.04 Tm 0 Tr (                    i++;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (130  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 82.37 Tm 0 Tr (                    }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (131  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (132  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 105.05 Tm 0 Tr (        //update the status of current water/coffee level in container) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (133  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 116.39 Tm 0 Tr (        curr_water = curr_water - cups;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.73 Tm 0 Tr (134  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 127.73 Tm 0 Tr (        curr_coffee = curr_coffee - cups;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.07 Tm 0 Tr (135  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 139.07 Tm 0 Tr (        cout << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.41 Tm 0 Tr (136  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 150.41 Tm 0 Tr (            }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (137  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 161.74 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (138  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (139  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 184.42 Tm 0 Tr (//make coffee per cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (140  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 195.76 Tm 0 Tr (void CoffeeMachine::makeSingleCup\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.10 Tm 0 Tr (141  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 207.10 Tm 0 Tr (  cout << "...made cup of coffee " << name << "..." << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.44 Tm 0 Tr (142  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 218.44 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.78 Tm 0 Tr (143  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (144  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 241.11 Tm 0 Tr (//display current state) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (145  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 252.45 Tm 0 Tr (void CoffeeMachine::displayCM\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (146  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 263.79 Tm 0 Tr (    //update status depending on the coffee machine created) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (147  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 275.13 Tm 0 Tr (    cout <<"Current state of CM: " << name <<endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.47 Tm 0 Tr (148  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 286.47 Tm 0 Tr (    cout << right << setw\(7\) << "WATER:" << right << setw\(3\) << curr_water << right) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.81 Tm 0 Tr (<< setw\(2\) << "/" << right << setw\(3\) << water_capacity << right << setw\(7\) << "\(cups\)") Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.15 Tm 0 Tr (<< endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (149  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 320.48 Tm 0 Tr (    cout << right << setw\(8\) << "COFFEE:" << right << setw\(2\) << curr_coffee <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (right << setw\(2\) << "/" << right << setw\(3\) << coffee_capacity << right << setw\(9\) <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr ("\(spoons\)" << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (150  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 354.50 Tm 0 Tr (    cout << right << setw\(10\) << "STRENGTH:" << right << setw\(2\) <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.84 Tm 0 Tr (coffee_spoons_per_cup << right << setw\(22\) << "coffee spoons per cup" << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.18 Tm 0 Tr (151  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.52 Tm 0 Tr (152  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 388.52 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (153  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (154  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 411.19 Tm 0 Tr (//coffee spoon per cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (155  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 422.53 Tm 0 Tr (void CoffeeMachine::setCoffeeSpoonsPerCup\(int cspc\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (156  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 433.87 Tm 0 Tr (     coffee_spoons_per_cup = cspc;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.21 Tm 0 Tr (157  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 445.21 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.55 Tm 0 Tr (158  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.89 Tm 0 Tr (159  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (160  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 479.22 Tm 0 Tr (//Derived class) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (161  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 490.56 Tm 0 Tr (class MilkCoffeeMachine: public CoffeeMachine{) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (162  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 501.90 Tm 0 Tr (public:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (163  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 513.24 Tm 0 Tr (    //MilkCoffeeMachine\(int m\): CoffeeMachine\("DECAF", x,y\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.58 Tm 0 Tr (164  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 524.58 Tm 0 Tr (    MilkCoffeeMachine\(string name, int x, int y, int m\):CoffeeMachine\(name, x, y\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.92 Tm 0 Tr (165  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 535.92 Tm 0 Tr (        this->name = name;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.26 Tm 0 Tr (166  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 547.26 Tm 0 Tr (        this->curr_milk = 0;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (167  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 558.59 Tm 0 Tr (        this->milk_capacity = m;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (168  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 569.93 Tm 0 Tr (        this->milk_spoons_per_cup = 1;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (169  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 581.27 Tm 0 Tr (    }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (170  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.95 Tm 0 Tr (171  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 603.95 Tm 0 Tr (    ~MilkCoffeeMachine\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.29 Tm 0 Tr (172  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 615.29 Tm 0 Tr (        cout << "shutting down Coffee Machine" << right << setw\(6\) << name << right) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.63 Tm 0 Tr (<< setw\(35\) << "with the following resources left:" << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (173  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 637.96 Tm 0 Tr (        cout << right << setw\(6\) << "milk:" << curr_milk - curr_milk << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (174  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 649.30 Tm 0 Tr (        cout << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (175  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 660.64 Tm 0 Tr (    }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (176  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.32 Tm 0 Tr (177  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 683.32 Tm 0 Tr (    void addMilk\(int\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.66 Tm 0 Tr (178  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 694.66 Tm 0 Tr (    void setMilkSpoonsPerCup\(int\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 706.00 Tm 0 Tr (179  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 706.00 Tm 0 Tr (    //override) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (180  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 717.33 Tm 0 Tr (    int makeCups\(int\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (181  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 728.67 Tm 0 Tr (    //override) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (182  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 740.01 Tm 0 Tr (    void displayCM\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (183  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (184  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.03 Tm 0 Tr (185  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 774.03 Tm 0 Tr (protected:) Tj  ET Q
+Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 9925>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (186  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 37.02 Tm 0 Tr (    int milk_spoons_per_cup;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.36 Tm 0 Tr (187  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 48.36 Tm 0 Tr (private:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.70 Tm 0 Tr (188  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 59.70 Tm 0 Tr (    int milk_capacity;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.04 Tm 0 Tr (189  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 71.04 Tm 0 Tr (    int curr_milk;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (190  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 82.37 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (191  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (192  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 105.05 Tm 0 Tr (//functions) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (193  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 116.39 Tm 0 Tr (void MilkCoffeeMachine::addMilk\(int m\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.73 Tm 0 Tr (194  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 127.73 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.07 Tm 0 Tr (195  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 139.07 Tm 0 Tr ( int mil_overflow;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.41 Tm 0 Tr (196  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 150.41 Tm 0 Tr (        curr_milk = m;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (197  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (198  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 173.08 Tm 0 Tr (        if \(curr_milk <= 0\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (199  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 184.42 Tm 0 Tr (        //nothing happen) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (200  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 195.76 Tm 0 Tr (            return;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.10 Tm 0 Tr (201  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 207.10 Tm 0 Tr (            }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.44 Tm 0 Tr (202  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.78 Tm 0 Tr (203  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 229.78 Tm 0 Tr (        //fills milk to full if amount is more than the default capacity) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (204  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 241.11 Tm 0 Tr (        if \(curr_milk > milk_capacity\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (205  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 252.45 Tm 0 Tr (            mil_overflow = curr_milk - milk_capacity;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (206  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 263.79 Tm 0 Tr (            curr_milk = curr_milk - mil_overflow;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (207  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 275.13 Tm 0 Tr (            }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.47 Tm 0 Tr (208  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 286.47 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.81 Tm 0 Tr (209  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.15 Tm 0 Tr (210  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 309.15 Tm 0 Tr (void MilkCoffeeMachine::setMilkSpoonsPerCup\(int mspc\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (211  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 320.48 Tm 0 Tr (milk_spoons_per_cup = mspc;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (212  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 331.82 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (213  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (214  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 354.50 Tm 0 Tr (//override version) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.84 Tm 0 Tr (215  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 365.84 Tm 0 Tr (int MilkCoffeeMachine::makeCups\(int cups\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.18 Tm 0 Tr (216  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.52 Tm 0 Tr (217  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 388.52 Tm 0 Tr (  //call makeCups function from CoffeeMachine class) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (218  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 399.85 Tm 0 Tr (  CoffeeMachine::makeCups\(cups\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (219  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (220  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 422.53 Tm 0 Tr (  //coffee with milk) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (221  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 433.87 Tm 0 Tr (  int with_milk = curr_milk;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.21 Tm 0 Tr (222  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.55 Tm 0 Tr (223  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 456.55 Tm 0 Tr (  //coffee without milk) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.89 Tm 0 Tr (224  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 467.89 Tm 0 Tr (  int without_milk = milk_capacity - curr_milk;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (225  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (226  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (227  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 501.90 Tm 0 Tr (  //display the number of coffee with and without milk) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (228  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 513.24 Tm 0 Tr (  cout << with_milk << right << setw\(4\) << "of" << right) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.58 Tm 0 Tr (229  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 524.58 Tm 0 Tr (  << setw\(3\) << milk_capacity << right << setw\(44\) << "cups have milk added.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.92 Tm 0 Tr (insufficient milk for") Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.26 Tm 0 Tr (230  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 547.26 Tm 0 Tr (  << right << setw\(3\) << without_milk << right << setw\(6\) << "cups" << endl ;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (231  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 558.59 Tm 0 Tr (  cout << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (232  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 569.93 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (233  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (234  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 592.61 Tm 0 Tr ( //override version) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.95 Tm 0 Tr (235  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 603.95 Tm 0 Tr (void MilkCoffeeMachine::displayCM\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.29 Tm 0 Tr (236  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 615.29 Tm 0 Tr (CoffeeMachine::displayCM\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.63 Tm 0 Tr (237  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 626.63 Tm 0 Tr (cout << right << setw\(6\) << "MILK:" << right << setw\(4\) << curr_milk << right <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (setw\(2\) << "/" << right << setw\(3\) << milk_capacity << right << setw\(9\) << "\(spoons\)" <<) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (238  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 660.64 Tm 0 Tr (cout << right << setw\(11\) << "MILK PART:" << right << setw\(2\) << milk_spoons_per_cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (<< right << setw\(20\) << "milk spoons per cup" << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.32 Tm 0 Tr (239  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 683.32 Tm 0 Tr (cout << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.66 Tm 0 Tr (240  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 694.66 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 706.00 Tm 0 Tr (241  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (242  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (243  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (244  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 740.01 Tm 0 Tr (int main\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (245  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 751.35 Tm 0 Tr (/////////////////////////////////////////////////////////////////////////////////) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (246  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 762.69 Tm 0 Tr (    //test run for stage 1, results are different due to overridden functions) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.03 Tm 0 Tr (247  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 774.03 Tm 0 Tr (    //proceed to stage 2) Tj  ET Q
+Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 8748>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (248  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.36 Tm 0 Tr (249  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 48.36 Tm 0 Tr (/*) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.70 Tm 0 Tr (250  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 59.70 Tm 0 Tr (    CoffeeMachine cm1; //activate UNTITLED coffee machine) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.04 Tm 0 Tr (251  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 71.04 Tm 0 Tr (      //cm1 objects) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (252  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 82.37 Tm 0 Tr (    cm1.addWater\(8\); //add water) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (253  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 93.71 Tm 0 Tr (    cm1.addCoffee\(8\);//add coffee) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (254  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 105.05 Tm 0 Tr (    cm1.displayCM\(\); //display current state) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (255  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 116.39 Tm 0 Tr (    cm1.makeCups\(5\); //make a cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.73 Tm 0 Tr (256  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 127.73 Tm 0 Tr (    cm1.displayCM\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.07 Tm 0 Tr (257  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.41 Tm 0 Tr (258  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (259  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 161.74 Tm 0 Tr (    CoffeeMachine cm2\("DECAF"\); //activate DECAF coffee machine) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (260  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 173.08 Tm 0 Tr (      //cm2 objects) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (261  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 184.42 Tm 0 Tr (    cm2.addWater\(10\); //add water) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (262  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 195.76 Tm 0 Tr (    cm2.addCoffee\(10\);//add coffee) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.10 Tm 0 Tr (263  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 207.10 Tm 0 Tr (    cm2.displayCM\(\);  //display current state) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.44 Tm 0 Tr (264  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 218.44 Tm 0 Tr (    cm2.makeCups\(14\); //make a cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.78 Tm 0 Tr (265  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 229.78 Tm 0 Tr (    cout << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (266  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 241.11 Tm 0 Tr (    cout << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (267  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (268  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 263.79 Tm 0 Tr (    CoffeeMachine cm3\("BLEND",15,20\); // activate BLEND coffee machine) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (269  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 275.13 Tm 0 Tr (     //cm3 objects) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.47 Tm 0 Tr (270  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 286.47 Tm 0 Tr (    cm3.addWater\(14\); //add water) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.81 Tm 0 Tr (271  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 297.81 Tm 0 Tr (    cm3.addCoffee\(20\);//add coffee) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.15 Tm 0 Tr (272  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 309.15 Tm 0 Tr (    cm3.displayCM\(\);  //display current state) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (273  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 320.48 Tm 0 Tr (    cm3.makeCups\(12\); //make a cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (274  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 331.82 Tm 0 Tr (    cm3.displayCM\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (275  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 343.16 Tm 0 Tr (    cm3.makeCups\(5\);  //make a cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (276  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 354.50 Tm 0 Tr (    cout << right << setw\(7\) << "ABORT." << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.84 Tm 0 Tr (277  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 365.84 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.18 Tm 0 Tr (278  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.52 Tm 0 Tr (279  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (280  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 399.85 Tm 0 Tr (//////////////////////////////////////////////////////////////////////////////////) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (281  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 411.19 Tm 0 Tr (     //test run of stage 2, result is based on the assignment) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (282  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (283  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 433.87 Tm 0 Tr (     //cm1 objects) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.21 Tm 0 Tr (284  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 445.21 Tm 0 Tr (    MilkCoffeeMachine cm1\("DECAF",8,8,8\); //active DECAF milk coffee machine) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.55 Tm 0 Tr (285  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 456.55 Tm 0 Tr (    cm1.addWater\(8\); //add water) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.89 Tm 0 Tr (286  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 467.89 Tm 0 Tr (    cm1.addCoffee\(8\);//add coffee) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (287  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 479.22 Tm 0 Tr (    cm1.addMilk\(8\);  //add milk) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (288  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 490.56 Tm 0 Tr (    cm1.makeCups\(8\); //make a cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (289  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (290  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 513.24 Tm 0 Tr (     //cm2 objects) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.58 Tm 0 Tr (291  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 524.58 Tm 0 Tr (    MilkCoffeeMachine cm2\("BLEND",15,30,26\); //activate BLEND milk coffee machine) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.92 Tm 0 Tr (292  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 535.92 Tm 0 Tr (    cm2.setMilkSpoonsPerCup\(2\); //set milk spoon per cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.26 Tm 0 Tr (293  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 547.26 Tm 0 Tr (    cm2.displayCM\(\); //display current state) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (294  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 558.59 Tm 0 Tr (    cm2.makeCups\(10\);//make a cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (295  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 569.93 Tm 0 Tr (    cm2.displayCM\(\); //display current state) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (296  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 581.27 Tm 0 Tr (    cm2.makeCups\(5\); //make a cup) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (297  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 592.61 Tm 0 Tr (    cm2.displayCM\(\); //display current state) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.95 Tm 0 Tr (298  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.29 Tm 0 Tr (299  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 615.29 Tm 0 Tr (    system\("pause"\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.63 Tm 0 Tr (300  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 626.63 Tm 0 Tr (    return 0;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (301  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 637.96 Tm 0 Tr (}) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R ]
+/Count 5
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 13 0 R
+/F1 14 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+15 0 obj
+<<
+/Names []
+>>
+endobj
+16 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 5)
+/CreationDate (D:20181207134733)
+>>
+endobj
+17 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000054512 00000 n 
+0000054821 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000014854 00000 n 
+0000014943 00000 n 
+0000025168 00000 n 
+0000025257 00000 n 
+0000035556 00000 n 
+0000035646 00000 n 
+0000045622 00000 n 
+0000045713 00000 n 
+0000054626 00000 n 
+0000054726 00000 n 
+0000054937 00000 n 
+0000054969 00000 n 
+0000055077 00000 n 
+trailer
+<<
+/Size 18
+/Root 17 0 R
+/Info 16 0 R
+>>
+startxref
+55181
+%%EOF
